@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="paiDoPai">
+        <div id="pai">
+        <div id="primeiroFilho"></div>
+        <div id="elementoOndeVoceEsta">
+            <div id="primeiroFilhoDoFilho"></div>
+            <div id="segundoEUltimoFilhoDoFilho"></div>
+        </div>
+        Atenção!
+        <div id="terceiroFilho"></div>
+        <div id="quartoEUltimoFilho"></div>
+        </div>
+    </div>
+    <script>
+        document.querySelector('#elementoOndeVoceEsta').parentNode.style.color = 'gray';
+        document.querySelector('#elementoOndeVoceEsta').firstElementChild.innerText = 'Teste do primeiro filho do EOVE';
+        let novo_irmao = document.createElement('div');
+        novo_irmao.id = 'novo_irmao';
+        let novo_filho = document.createElement('div');
+        novo_filho.className = 'filho_EOVE';
+        let mais_filho = document.createElement('section');
+        mais_filho.innerText = 'Sucesso papai';
+        document.querySelector('#pai').children[0].insertAdjacentElement('afterEnd', novo_irmao);
+        document.querySelector('#elementoOndeVoceEsta').appendChild(novo_filho);
+        document.querySelector('#primeiroFilhoDoFilho').appendChild(mais_filho);
+
+        
+        let paiMorClone = document.getElementById('pai').cloneNode(true);
+        document.getElementById('paiDoPai').remove();
+        document.querySelector('script').insertAdjacentElement('beforebegin', paiMorClone);
+
+        let paiMorChildren = document.getElementById('pai').childNodes;
+        let EOVEChildren = document.getElementById('elementoOndeVoceEsta').childNodes;
+
+        for (let i = paiMorChildren.length - 1; i >= 0; i -= 1){
+            if (paiMorChildren[i].id !== 'elementoOndeVoceEsta') {
+                paiMorChildren[i].remove();
+            }
+        }
+
+        for (let i = EOVEChildren.length - 1; i >= 0; i -= 1) {
+            if (EOVEChildren[i].id !== 'primeiroFilhoDoFilho') {
+                EOVEChildren[i].remove();
+            }
+        }
+
+    </script>
+</body>
+</html>

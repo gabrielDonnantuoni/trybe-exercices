@@ -8,7 +8,10 @@ The program has more than **1,500 hours** of classroom and online classes and co
 
 The curriculum contains HTML, CSS, JavaScript, React, Node, Express.js, SQL, Git and other languages and frameworks.
 
-The lecture number is displayed in the section Trybe Lectures as `lecture_number: content`.
+The lecture number is displayed in the section Trybe Lectures as `[Unit_Number][Day_Number]`.
+Current day in course: `19`
+
+Progress tracking emotes:
 - :hourglass_flowing_sand: - Ongoing
 - :heavy_check_mark: - Completed
 - :closed_book: - Not started
@@ -34,7 +37,7 @@ The lecture number is displayed in the section Trybe Lectures as `lecture_number
 - [X] 3.4: Semantic HTML
 - [X] 3.5: [Project - Lessons Learned](https://github.com/tryber/sd-08-project-lessons-learned/tree/gabriel-donnantuoni-lessons-learned)
 
-##### Unit 4: Introduction to JavaScript and Programming Logic :hourglass_flowing_sand:
+##### Unit 4: Introduction to JavaScript and Programming Logic :heavy_check_mark:
 
 - [X] 4.1: JavaScript - First steps
 - [X] 4.2: JavaScript - Array and for loops
@@ -42,10 +45,10 @@ The lecture number is displayed in the section Trybe Lectures as `lecture_number
 - [X] 4.4: JavaScript - Objects and functions
 - [X] 4.5: Project - [Playground Functions](https://github.com/tryber/sd-08-project-playground-function/tree/gabrielDonnantuoni-project-playground-function)
 
-##### Unit 5: Introdução - JavaScript - DOM, Events and Web Storage :closed_book:
+##### Unit 5: Introdução - JavaScript - DOM, Events and Web Storage :hourglass_flowing_sand:
 
 - [X] 5.1: JavaScript - DOM and selectors
-- [ ] 5.2: JavaScript - Working with elements
+- [X] 5.2: JavaScript - Working with elements
 - [ ] 5.3: JavaScript - Events
 - [ ] 5.4: JavaScript - Web Storage
 - [ ] 5.5: Project - Meme Generator
