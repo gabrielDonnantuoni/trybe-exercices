@@ -9,7 +9,7 @@ The program has more than **1,500 hours** of classroom and online classes and co
 The curriculum contains HTML, CSS, JavaScript, React, Node, Express.js, SQL, Git and other languages and frameworks.
 
 The lecture number is displayed in the section Trybe Lectures as `[Unit_Number][Day_Number]`.
-Current day in course: `20`
+Current day in course: `21`
 
 Progress tracking emotes:
 - :hourglass_flowing_sand: - Ongoing
@@ -50,7 +50,7 @@ Progress tracking emotes:
 - [X] 5.1: JavaScript - DOM and selectors
 - [X] 5.2: JavaScript - Working with elements
 - [X] 5.3: JavaScript - Events
-- [ ] 5.4: JavaScript - Web Storage
+- [X] 5.4: JavaScript - Web Storage
 - [ ] 5.5: Project - Meme Generator
 - [ ] 5.6: Project - Art with Pixels
 - [ ] 5.7: Project - Task List
