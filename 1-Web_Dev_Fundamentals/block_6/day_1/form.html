@@ -40,15 +40,36 @@
       </div>
       <div class="input-box">
         <p>Tipo de moradia:</p>
-        <input type="radio" name="type" id="casa" value="casa" checked>
-        <label for="casa">Casa</label>
-        <input type="radio" name="type" id="apartamento" value="apartamento">
-        <label for="apartamento">Apartamento</label>
+        <input type="radio" name="living-type" id="casa" value="casa" checked>
+        <label for="house">Casa</label>
+        <input type="radio" name="living-type" id="apartamento" value="apartamento">
+        <label for="apartment">Apartamento</label>
       </div>
     </fieldset>
     <fieldset>
       <legend>Último emprego</legend>
+      <div class="input-block">
+        <label for="abstract">Resumo do currículo</label>
+        <textarea name="abstract" id="abstract" placeholder="No máximo 1000 caracteres" required></textarea>
+      </div>
+      <div class="input-block">
+        <label for="position">Cargo:</label>
+        <input type="text" name="job-position" id="position" required>
+      </div>
+      <div class="input-block">
+        <label for="position-description">Descrição do cargo:</label>
+        <textarea type="text" name="position-description" id="position-description" required></textarea>
+      </div>
+      <div class="input-block">
+        <label for="starting-date">Data de início:</label>
+        <input type="date" name="job-starting-date" id="starting-date">
+        <br><br>
+        <label for="leaving-date">Data de saída:</label>
+        <input type="date" name="job-leaving-date" id="leaving-date">
+      </div>
     </fieldset>
+    <button type="submit">Enviar currículo</button>
   </form>
+  <section class="data-container"></section>
 </body>
 </html>
