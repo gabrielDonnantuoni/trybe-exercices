@@ -56,7 +56,37 @@ function getData() {
   const dataContainer = document.querySelector('.data-container');
   const table = document.createElement('table');
   submitButton.addEventListener('click', (event) => {
-    // event.preventDefault();
+    const form = new FormData(document.querySelector('form'));
+    const headerRow = document.createElement('tr');
+    const thParam = document.createElement('th');
+    thParam.innerText = 'Param';
+    const thValue = document.createElement('th');
+    thValue.innerText = 'Value';
+    
+    headerRow.appendChild(thParam);
+    headerRow.appendChild(thValue);
+    table.appendChild(headerRow);
+    
+    form.forEach((value, key) => {
+      const newRow = document.createElement('tr');
+      const tdParam = document.createElement('td');
+      tdParam.innerText = key;
+      const tdValue = document.createElement('td');
+      tdValue.innerText = value;
+      newRow.appendChild(tdParam);
+      newRow.appendChild(tdValue);
+      table.appendChild(newRow);
+    });
+    event.preventDefault();
+  });
+  dataContainer.appendChild(table);
+}
+
+function getDataFromURL() {
+  const submitButton = document.querySelector('button[type="submit"]');
+  const dataContainer = document.querySelector('.data-container');
+  const table = document.createElement('table');
+  submitButton.addEventListener('click', () => {
     const url = new URL(location.href);
     const headerRow = document.createElement('tr');
     const thParam = document.createElement('th');
