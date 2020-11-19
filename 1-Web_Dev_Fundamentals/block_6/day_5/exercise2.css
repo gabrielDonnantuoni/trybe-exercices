@@ -1,0 +1,142 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  color: antiquewhite;
+}
+
+body {
+  background-color: rgb(230, 125, 230);
+}
+
+header {
+  background-color: purple;
+}
+
+header p {
+  font-size: 1.9em;
+  font-weight: bold;
+  text-align: center;
+  color: antiquewhite;
+}
+
+header nav {
+  display: none;
+}
+
+ul {
+  list-style: none;
+}
+
+aside {
+  padding-top: 1rem;
+}
+
+aside h2 {
+  text-align: center;
+  font-size: 1.5em;
+}
+
+aside li {
+  padding-left: 15%;
+}
+
+.main-content {
+  box-sizing: content-box;
+  background-color: rgba(190, 0, 190, .7);
+  padding: 0 2.5% 15px;
+}
+
+p {
+  text-align: justify;
+}
+p + p {
+  margin-top: 0.8em;
+}
+
+footer {
+  background-color: purple;
+}
+
+small {
+  display: flex;
+  flex-wrap: wrap;
+  width: 95%;
+  margin: 0 auto;
+  padding: 5px 0;
+}
+
+small h3 {
+  align-self: center;
+  margin-right: 10px;
+}
+
+small p {
+  flex: 1 1 60%;
+}
+@media (min-width: 430px) {
+  header {
+    display: flex;
+  }
+
+  header p {
+    flex: 1 1 70%;
+  }
+
+  header nav {
+    display: flex;
+    flex: 1;
+    align-items: center;
+  }
+  
+  nav ul {
+    flex: 1;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+  small h3 + p {
+    text-align: end;
+  }
+
+  .aside-wrapper {
+    display: flex;
+    justify-content: space-around;
+  }
+}
+
+@media (min-width: 745px) {
+  header p {
+    flex: 1 1 60%;
+  }
+}
+
+@media (min-width: 1000px) {
+  .aside-wrapper {
+    background-color: rgb(230, 125, 230);
+    border-radius: 0 0 8px 0;
+    float: left;
+    flex-direction: column;
+    padding-bottom: 15px;
+    margin-right: 2%;
+    margin-bottom: 8px;
+  }
+
+  h1 {
+    margin: 0 0 0.67em;
+  }
+}
+
+@media (min-width: 1300px) {
+  .aside-wrapper {
+    height: 1375.190px;
+    border-radius: 0;
+    justify-content: start;
+  }
+
+  .main-content {
+    max-width: 1300px;
+  }
+
+}
