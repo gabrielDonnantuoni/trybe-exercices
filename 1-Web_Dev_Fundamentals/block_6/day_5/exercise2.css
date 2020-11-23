@@ -43,7 +43,7 @@ aside li {
 
 .main-content {
   box-sizing: content-box;
-  background-color: rgba(190, 0, 190, .7);
+  background-color: rgba(190, 0, 190, 0.7);
   padding: 0 2.5% 15px;
 }
 
@@ -88,7 +88,7 @@ small p {
     flex: 1;
     align-items: center;
   }
-  
+
   nav ul {
     flex: 1;
     display: flex;
@@ -130,7 +130,7 @@ small p {
 
 @media (min-width: 1300px) {
   .aside-wrapper {
-    height: 1375.190px;
+    height: 1375.19px;
     border-radius: 0;
     justify-content: start;
   }
@@ -138,5 +138,4 @@ small p {
   .main-content {
     max-width: 1300px;
   }
-
 }
