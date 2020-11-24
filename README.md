@@ -9,8 +9,8 @@ The program has more than **1,500 hours** of classroom and online classes and co
 The curriculum contains HTML, CSS, JavaScript, React, Node, Express.js, SQL, Git and other languages and frameworks.
 
 The lecture number is displayed in the section Trybe Lectures as `[Unit_Number][Day_Number]`.
-Current day in course: `21`
-
+Current day in course: `31`
+<!-- 7.1 -->
 Progress tracking emotes:
 - :hourglass_flowing_sand: - Ongoing
 - :heavy_check_mark: - Completed
@@ -43,32 +43,32 @@ Progress tracking emotes:
 - [X] 4.2: JavaScript - Array and for loops
 - [X] 4.3: JavaScript - Programming logic and algorithms
 - [X] 4.4: JavaScript - Objects and functions
-- [X] 4.5: Project - [Playground Functions](https://github.com/tryber/sd-08-project-playground-function/tree/gabrielDonnantuoni-project-playground-function)
+- [X] 4.5: [Project - Playground Functions](https://github.com/tryber/sd-08-project-playground-function/tree/gabrielDonnantuoni-project-playground-function)
 
-##### Unit 5: Introdução - JavaScript - DOM, Events and Web Storage :hourglass_flowing_sand:
+##### Unit 5: Introdução - JavaScript - DOM, Events and Web Storage :heavy_check_mark:
 
 - [X] 5.1: JavaScript - DOM and selectors
 - [X] 5.2: JavaScript - Working with elements
 - [X] 5.3: JavaScript - Events
 - [X] 5.4: JavaScript - Web Storage
-- [ ] 5.5: Project - Meme Generator
-- [ ] 5.6: Project - Art with Pixels
-- [ ] 5.7: Project - Task List
+- [X] 5.5: [Project - Art with Pixels](https://github.com/tryber/sd-08-project-pixels-art/tree/gabrielDonnantuoni-pixels-art)
+- [X] 5.6: [Project - Task List](https://github.com/gabrielDonnantuoni/trybe-project-toDoList)
+- [ ] 5.7: (Bonus) Project - Meme Generator
 - [ ] 5.7: (Bonus) Project - Gess the Color
 - [ ] 5.7: (Bonus) Project - Mysterious Letter
 
-##### Unit 6: HTML & CSS - Forms, Flexbox and Responsive :closed_book:
+##### Unit 6: HTML & CSS - Forms, Flexbox and Responsive :heavy_check_mark:
 
-- [ ] 6.1: HTML & CSS - Forms
-- [ ] 6.2: JavaScript Libraries and CSS Frameworks
-- [ ] 6.3: CSS Flexbox - Part 1
-- [ ] 6.4: CSS Flexbox - Part 2
-- [ ] 6.5: CSS Responsive - Mobile First
-- [ ] 6.6: Project - Facebook's Login Page
+- [X] 6.1: HTML & CSS - Forms
+- [X] 6.2: JavaScript Libraries and CSS Frameworks
+- [X] 6.3: CSS Flexbox - Part 1
+- [X] 6.4: CSS Flexbox - Part 2
+- [X] 6.5: CSS Responsive - Mobile First
+- [X] 6.6: [Project - Facebook's Login Page](https://github.com/tryber/sd-08-project-facebook-signup/tree/gabrielDonnantuoni-facebook-project)
 
-##### Unit 7: JavaScript ES6 & Unit Tests :closed_book:
+##### Unit 7: JavaScript ES6 & Unit Tests :hourglass_flowing_sand:
 
-- [ ] 7.1: JavaScript ES6 - let, const, arrow functions and template literals
+- [X] 7.1: JavaScript ES6 - let, const, arrow functions and template literals
 - [ ] 7.2: JavaScript ES6 - Objects
 - [ ] 7.3: Unit tests in JavaScript
 - [ ] 7.4: Project - JavaScript Unit Tests
