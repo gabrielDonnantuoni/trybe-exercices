@@ -8,9 +8,9 @@ The program has more than **1,500 hours** of classroom and online classes and co
 
 The curriculum contains HTML, CSS, JavaScript, React, Node, Express.js, SQL, Git and other languages and frameworks.
 
-The lecture number is displayed in the section Trybe Lectures as `[Unit_Number][Day_Number]`.
-Current day in course: `31`
-<!-- 7.1 -->
+The lecture number is displayed in the section Trybe Lectures as `[Module]/[Block_Number]/[Day_Number]`.
+Current day in course: `35`
+<!-- 8.1 -->
 Progress tracking emotes:
 - :hourglass_flowing_sand: - Ongoing
 - :heavy_check_mark: - Completed
@@ -66,16 +66,16 @@ Progress tracking emotes:
 - [X] 6.5: CSS Responsive - Mobile First
 - [X] 6.6: [Project - Facebook's Login Page](https://github.com/tryber/sd-08-project-facebook-signup/tree/gabrielDonnantuoni-facebook-project)
 
-##### Unit 7: JavaScript ES6 & Unit Tests :hourglass_flowing_sand:
+##### Unit 7: JavaScript ES6 & Unit Tests :heavy_check_mark:
 
 - [X] 7.1: JavaScript ES6 - let, const, arrow functions and template literals
-- [ ] 7.2: JavaScript ES6 - Objects
-- [ ] 7.3: Unit tests in JavaScript
-- [ ] 7.4: Project - JavaScript Unit Tests
+- [X] 7.2: JavaScript ES6 - Objects
+- [X] 7.3: Unit tests in JavaScript
+- [X] 7.4: [Project - JavaScript Unit Tests](https://github.com/tryber/sd-08-project-js-unit-tests/tree/gabrielDonnantuoni-unit-tests-project)
 
-##### Unit 8: JavaScript ES6 :closed_book:
+##### Unit 8: JavaScript ES6 Higher Order Functions :hourglass_flowing_sand:
 
-- [ ] 8.1: JavaScript ES6 - Higher Order Functions - forEach, find, some, every, sort
+- [X] 8.1: JavaScript ES6 - Higher Order Functions - forEach, find, some, every, sort
 - [ ] 8.2: JavaScript ES6 - Higher Order Functions - map and filter
 - [ ] 8.3: JavaScript ES6 - Higher Order Functions - reduce
 - [ ] 8.4: JavaScript ES6 - Spread operator, rest parameter, destructuring and more
