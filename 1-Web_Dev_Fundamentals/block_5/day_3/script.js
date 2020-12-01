@@ -135,4 +135,4 @@ document.querySelector('#task-input').addEventListener('keydown', (event) => {
             document.querySelector('.task-list').appendChild(newItem);
         }
     }
-})
+});

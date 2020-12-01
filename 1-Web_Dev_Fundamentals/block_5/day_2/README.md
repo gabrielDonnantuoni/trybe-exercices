@@ -22,7 +22,6 @@ A partir do cógido de `after_live_lectures.html` realize as seguinte tarefas ut
 
 9. Adicione 3 tags h3, todas sendo filhas do div criado no passo 2.
 
-
 #### Parte 2
 
 1. Adicione a classe title na tag h1 criada;

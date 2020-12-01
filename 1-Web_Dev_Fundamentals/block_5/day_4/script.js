@@ -32,6 +32,6 @@ function loadStorage() {
 
 // window.onload = () => {
 //     function updateStorage() {
-//         if ()
+//         if () 
 //     }
 // }

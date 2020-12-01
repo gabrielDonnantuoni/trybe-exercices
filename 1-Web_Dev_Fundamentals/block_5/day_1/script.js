@@ -26,4 +26,3 @@ function consoleShowAll(selector) {
 }
 
 consoleShowAll('p');
-

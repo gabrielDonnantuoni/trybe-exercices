@@ -1,5 +1,5 @@
 // Parte 1
-let h1 = document.createElement('h1');
+const h1 = document.createElement('h1');
 document.querySelector('body').appendChild(h1);
 
 let mainContent = document.createElement('div');

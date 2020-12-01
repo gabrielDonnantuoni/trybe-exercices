@@ -13,9 +13,9 @@ background-color: yellow;
 
 .main-content .center-content {
 background-color: red;
-width: 50%;
 margin-left: auto;
 margin-right: auto;
+width: 50%;
 }
 
 .main-content .center-content p {

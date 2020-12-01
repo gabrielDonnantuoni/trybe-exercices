@@ -1,6 +1,6 @@
 ## Funções de Manipulação do DOM
 
-Dados os arquivos index.html e style.css, crie um novo arquivo script.js para realizar os exercícios
+Dados os arquivos index.html e style.css, crie um novo arquivo script.js para realizar os exercícios.
 
 Aqui você vai modificar os elementos já existentes utilizando apenas as funções:
 
