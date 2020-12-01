@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./bootstrap-5.0.0-alpha3-dist/css/bootstrap.min.css">
+  <script src="./bootstrap-5.0.0-alpha3-dist/js/bootstrap.bundle.min.js" defer></script>
+  <link rel="stylesheet" href="style.css">
+  <script src="./estados_cidades_br.js" defer></script>
+  <script src="./script.js" defer></script>
+  <title>Cadastro de Currículo</title>
+</head>
+<body>
+  <main class="container">
+    <h1>Cadastro de Currículo</h1>
+    <form action="" method="get">
+      <fieldset>
+        <legend>Dados pessoais</legend>
+        <div class="input-box">
+          <label for="name">Nome:</label>
+          <input type="text" name="name" id="name" maxlength="40" required>
+        </div>
+        <div class="input-box">
+          <label for="email">Email:</label>
+          <input type="email" name="email" id="email" maxlength="50" required>
+        </div>
+        <div class="input-box">
+          <label for="cpf">CPF:</label>
+          <input type="text" name="cpf" id="cpf" maxlength="11" required>
+        </div>
+        <div class="input-box">
+          <label for="state">Estado:</label>
+          <select name="state" id="state" required></select>
+        </div>
+        <div class="input-box">
+          <label for="city">Cidade:</label>
+          <input list="cities" name="city" id="city" required>
+          <datalist id="cities"></datalist>
+        </div>
+        <div class="input-box">
+          <label for="address">Endereço:</label>
+          <input type="text" name="address" id="address" maxlength="200" required>
+        </div>
+        <div class="input-box">
+          <p>Tipo de moradia:</p>
+          <input type="radio" name="living-type" id="casa" value="casa" checked>
+          <label for="house">Casa</label>
+          <input type="radio" name="living-type" id="apartamento" value="apartamento">
+          <label for="apartment">Apartamento</label>
+        </div>
+      </fieldset>
+      <fieldset>
+        <legend>Último emprego</legend>
+        <div class="input-block">
+          <label for="abstract">Resumo do currículo</label>
+          <textarea name="abstract" id="abstract" placeholder="No máximo 1000 caracteres" required></textarea>
+        </div>
+        <div class="input-block">
+          <label for="position">Cargo:</label>
+          <input type="text" name="job-position" id="position" required>
+        </div>
+        <div class="input-block">
+          <label for="position-description">Descrição do cargo:</label>
+          <textarea type="text" name="position-description" id="position-description" required></textarea>
+        </div>
+        <div class="input-block">
+          <label for="starting-date">Data de início:</label>
+          <input type="date" name="job-starting-date" id="starting-date">
+          <br><br>
+          <label for="leaving-date">Data de saída:</label>
+          <input type="date" name="job-leaving-date" id="leaving-date">
+        </div>
+      </fieldset>
+      <button type="submit">Enviar currículo</button>
+    </form>
+    <section class="data-container"></section>
+  </main>
+</body>
+</html>
