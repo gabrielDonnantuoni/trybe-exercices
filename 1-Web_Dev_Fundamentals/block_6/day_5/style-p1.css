@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  background-color: gray;
+  height: 100vh;
+}
+
+.topo {
+  background-color: yellow;
+  height: 20%;
+}
+
+h1 {
+  text-align: center;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  height: 200px;
+}
+
+.sides {
+  flex: 1;
+  padding: 5px;
+  margin-top: 10px;
+  background-color: blueviolet;
+}
+
+@media (min-width: 360px) {
+  .container {
+    width: 90%;
+    margin: auto;
+  }
+
+  .topo {
+    background-color: red;
+  }
+  h1 {
+    color: white;
+  }
+
+  .wrapper {
+    flex-direction: row;
+  }
+
+  .sides {
+    background-color: blue;
+  }
+}
