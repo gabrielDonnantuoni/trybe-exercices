@@ -9,8 +9,8 @@ The program has more than **1,500 hours** of classroom and online classes and co
 The curriculum contains HTML, CSS, JavaScript, React, Node, Express.js, SQL, Git and other languages and frameworks.
 
 The lecture number is displayed in the section Trybe Lectures as `[Module]/[Block_Number]/[Day_Number]`.
-Current day in course: `35`
-<!-- 8.1 -->
+Current day in course: `36`
+<!-- 8.2 -->
 Progress tracking emotes:
 - :hourglass_flowing_sand: - Ongoing
 - :heavy_check_mark: - Completed
@@ -76,7 +76,7 @@ Progress tracking emotes:
 ##### Unit 8: JavaScript ES6 Higher Order Functions :hourglass_flowing_sand:
 
 - [X] 8.1: JavaScript ES6 - Higher Order Functions - forEach, find, some, every, sort
-- [ ] 8.2: JavaScript ES6 - Higher Order Functions - map and filter
+- [X] 8.2: JavaScript ES6 - Higher Order Functions - map and filter
 - [ ] 8.3: JavaScript ES6 - Higher Order Functions - reduce
 - [ ] 8.4: JavaScript ES6 - Spread operator, rest parameter, destructuring and more
 - [ ] 8.5: Project - Zoo functions
