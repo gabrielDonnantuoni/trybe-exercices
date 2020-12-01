@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Lorem Ipsum</title>
+</head>
+<body>
+    <header>
+        <h2>Lorem Ipsum Text</h2>
+        <button>Set reading preferences</button>
+    </header>
+    <main>
+        <article>
+            <section class="pre-content">
+                <p>
+                    "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."<br>
+                    "There is no one who loves pain itself, who seeks after it and wants to have it, simply because it is pain..."
+                </p>
+            </section>
+            <section class="content">
+                <p>Cras id pulvinar purus. Mauris vehicula vitae quam gravida lobortis. Curabitur convallis arcu ligula, quis elementum mauris imperdiet ac. Fusce nec neque eu urna mattis ornare vulputate sit amet mauris. Proin sit amet augue tempus, commodo dolor rhoncus, luctus libero. Etiam lobortis hendrerit hendrerit. Aliquam id consequat arcu. Ut viverra maximus urna a tempor. Cras mauris nisl, pretium a dolor ac, hendrerit feugiat sapien. Mauris vestibulum odio eu sapien ornare, sit amet volutpat diam aliquam. Vivamus aliquam arcu in est fermentum pellentesque.</p>
+                <br>
+                <p>Maecenas vel placerat purus. Nulla rutrum lectus id aliquet varius. Donec tempor ante et dignissim dictum. Nunc quis erat non libero euismod mattis. Phasellus accumsan diam eu augue rhoncus scelerisque. Duis sit amet lectus nibh. Praesent neque ipsum, consectetur a rutrum aliquam, ultrices ac justo. Aliquam ut lacinia velit.</p>
+                <br>
+                <p>Sed suscipit leo in risus molestie, maximus cursus ante congue. Curabitur eleifend mattis metus, non lacinia massa cursus ac. Cras non egestas tellus. Nam non mattis libero, et porta augue. Praesent tempor lobortis mauris sed condimentum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Praesent mollis ex sem, nec venenatis augue mattis sed.</p>
+                <br>
+                <p>Sed feugiat diam sed dolor rhoncus lacinia sit amet id enim. Ut varius imperdiet ligula, et hendrerit nunc ultricies eget. Cras consequat metus in mollis vestibulum. Nullam a venenatis velit. Pellentesque eu quam tristique, laoreet risus eu, varius risus. Sed mattis nulla sed justo pulvinar facilisis. Sed faucibus, lorem sed suscipit mollis, dolor quam aliquet lorem, eget placerat augue sem malesuada tortor. Phasellus eu quam eget risus rutrum varius ullamcorper vitae turpis. Aenean pharetra sem quis vulputate dapibus. Mauris consectetur, eros egestas blandit dapibus, urna lorem consectetur nisl, vel vehicula dui orci pharetra tortor. Nam convallis, libero ac volutpat finibus, ante elit ultrices lorem, vel blandit urna lorem vel mauris. Nullam vulputate elementum purus, nec suscipit massa rutrum id. Vivamus id ligula pharetra urna fermentum scelerisque vitae sed ipsum. In nec vehicula velit. Sed venenatis cursus nulla pretium egestas. Aliquam at efficitur enim, mattis tincidunt nunc.</p>
+                <br>
+                <p>Donec convallis sed enim sit amet malesuada. Morbi euismod aliquam ex, egestas sollicitudin risus congue at. Proin in lorem nisl. Nam sagittis egestas rhoncus. Aenean nisl odio, fringilla vitae consequat in, semper eu mauris. Maecenas ut nulla ut metus vestibulum elementum. Maecenas rhoncus, lectus non ultricies iaculis, ligula est varius ligula, ac porttitor nisl tortor ut urna. Quisque dignissim nunc at nunc tempus vehicula. Suspendisse laoreet varius luctus. Vestibulum id nunc facilisis, luctus ex quis, ullamcorper orci.</p>
+                <br>
+                <p>Aliquam neque diam, vehicula vehicula porta efficitur, posuere eget sapien. Duis accumsan risus vel imperdiet condimentum. Ut in risus maximus, ornare ante at, condimentum neque. Fusce at sapien mattis nulla scelerisque dignissim. Integer convallis diam vel tellus rhoncus scelerisque. Nulla volutpat massa nec laoreet placerat. Vestibulum justo nulla, varius nec orci ut, gravida vestibulum ex. Morbi consequat nec diam et sodales. Cras dolor dui, viverra nec molestie et, ultricies sed tortor.</p>
+            </section>
+        </article>
+    </main>
+
+    <aside>
+        <div class="preferences">
+            <div class="input-block">
+                <label for="bkgdColor">Background Color</label><br>
+                <input type="color" id="bkgdColor" name="bkgdColor">
+            </div>
+
+            <div class="input-block">
+                <label for="textColor">Text Color</label><br>
+                <input type="color" id="textColor" name="textColor">
+            </div>
+
+            <div class="input-block">
+                <label for="fontSize">Font Size</label> <br>
+                <input type="text" id="fontSize" name="fontSize" placeholder="Valor em px">
+            </div>
+
+            <div class="input-block">
+                <label for="letterSpacing">Letter Spacing</label><br>
+                <input type="text" id="letterSpacing" name="letterSpacing" placeholder="Valor em px">
+            </div>
+
+            <div class="input-block">
+                <label for="fontFamily">Font Family</label><br>
+                <select name="fontFamily" id="fontFamily">
+                    <option value="Montserrat">Montserrat</option>
+                    <option value="Nunito">Nunito</option>
+                    <option value="Oswald">Oswald</option>
+                    <option value="Roboto">Roboto</option>
+                </select>
+                <!-- <input list="fontFamilies" id="fontFamily" name="fontFamily">
+
+                <datalist id="fontFamilies">
+                    <option value="Montserrat"></option>
+                    <option value="Nunito"></option>
+                    <option value="Oswald"></option>
+                    <option value="Roboto"></option>
+                </datalist> -->
+            </div>
+
+        </div>
+        <div class="arrow">
+            <i class="fas fa-chevron-left"></i>
+        </div>
+    </aside>
+
+    <script src="script.js"></script>
+</body>
+</html>
