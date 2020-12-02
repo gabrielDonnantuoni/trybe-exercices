@@ -1,6 +1,6 @@
 ### Agora a prática
 
-Dado o arquivo com o array de objeto `books` dentro de `/books.js`:
+Dado o arquivo com o array de objetos `books` dentro de `/books.js`:
 
   1. Complete a função `formatedBookNames()` e passe no(s) teste(s). Crie um array com strings no formato *NOME_DO_LIVRO - GÊNERO_DO_LIVRO - NOME_DA_PESSOA_AUTORA* e passe no teste.
 
