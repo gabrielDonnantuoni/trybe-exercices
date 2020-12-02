@@ -1,5 +1,3 @@
-const assert = require('assert');
-
 const books = [
   {
     id: 1,
@@ -63,22 +61,4 @@ const books = [
   },
 ];
 
-const expected_result = false;
-
-// function authorUnique() {
-//   let areUnique = true;
-//   books.forEach((book, index) => {
-//     const [...arrWithOutBook] = books;
-//     arrWithOutBook.splice(index, 1);
-//     arrWithOutBook.forEach((book2) => {
-//       if (book.author.birthYear === book2.author.birthYear) areUnique = false;
-//     });
-//   });
-//   return areUnique;
-// }
-
-function authorUnique() {
-  return books.every((book) => !books.some((book2) => (book.author.birthYear === book2.author.birthYear) && (book.author.name !== book2.author.name)));
-}
-
-assert.strictEqual(authorUnique(), expected_result);
+module.exports = books;
