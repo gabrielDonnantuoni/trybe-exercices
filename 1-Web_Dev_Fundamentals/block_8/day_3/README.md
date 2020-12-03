@@ -1,4 +1,6 @@
-### Agora a prática
+## JavaScript ES6 - Higher Order Functions - reduce
+
+### Exercícios
 
 Utilizando, quando necessário, os arquivos auxiliares:
   * `/books.js` com o array de objetos `books`;

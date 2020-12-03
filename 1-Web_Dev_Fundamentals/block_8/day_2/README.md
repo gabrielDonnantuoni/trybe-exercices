@@ -1,4 +1,6 @@
-### Agora a prática
+## JavaScript ES6 - Higher Order Functions - map e filter
+
+### Exercícios
 
 Dado o arquivo com o array de objetos `books` dentro de `/books.js`:
 
