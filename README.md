@@ -9,8 +9,8 @@ The program has more than **1,500 hours** of classroom and online classes and co
 The curriculum contains HTML, CSS, JavaScript, React, Node, Express.js, SQL, Git and other languages and frameworks.
 
 The lecture number is displayed in the section Trybe Lectures as `[Module]/[Block_Number]/[Day_Number]`.
-Current day in course: `37`
-<!-- 8.3 -->
+Current day in course: `40`
+<!-- 9.1 -->
 Progress tracking emotes:
 - :hourglass_flowing_sand: - Ongoing
 - :heavy_check_mark: - Completed
@@ -79,11 +79,11 @@ Progress tracking emotes:
 - [X] 8.2: JavaScript ES6 - Higher Order Functions - map and filter
 - [X] 8.3: JavaScript ES6 - Higher Order Functions - reduce
 - [X] 8.4: JavaScript ES6 - Spread operator, rest parameter, destructuring and more
-- [ ] 8.5: Project - Zoo functions
+- [X] 8.5: [Project - Zoo functions](https://github.com/tryber/sd-08-project-zoo-function/pull/26)
 
 ##### Unit 9: Asynchronicity & Callbacks :closed_book:
 
-- [ ] 9.1: Asynchronous JavaScript and Callbacks
+- [X] 9.1: Asynchronous JavaScript and Callbacks
 - [ ] 9.2: JavaScript Promises
 - [ ] 9.3: Project - Shopping Cart
 
