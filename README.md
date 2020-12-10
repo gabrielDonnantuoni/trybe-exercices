@@ -9,8 +9,7 @@ The program has more than **1,500 hours** of classroom and online classes and co
 The curriculum contains HTML, CSS, JavaScript, React, Node, Express.js, SQL, Git and other languages and frameworks.
 
 The lecture number is displayed in the section Trybe Lectures as `[Module]/[Block_Number]/[Day_Number]`.
-Current day in course: `40`
-<!-- 9.1 -->
+
 Progress tracking emotes:
 - :hourglass_flowing_sand: - Ongoing
 - :heavy_check_mark: - Completed
@@ -84,7 +83,7 @@ Progress tracking emotes:
 ##### Unit 9: Asynchronicity & Callbacks :closed_book:
 
 - [X] 9.1: Asynchronous JavaScript and Callbacks
-- [ ] 9.2: JavaScript Promises
+- [X] 9.2: JavaScript Promises
 - [ ] 9.3: Project - Shopping Cart
 
 ##### Unit 10: Automated Tests with Jest :closed_book:
