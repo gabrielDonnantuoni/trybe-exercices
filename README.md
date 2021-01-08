@@ -16,7 +16,7 @@ Progress tracking emotes:
 - :closed_book: - Not started
 
 ## Trybe Lectures
-### Introduction - Fundamentals of Web Development :hourglass_flowing_sand:
+### Introduction - Fundamentals of Web Development :heavy_check_mark:
 ##### Unit 1: Introduction - Unix & Shell :heavy_check_mark:
 
 - [X] 1.3: Unix & Bash - Part 1
@@ -72,30 +72,30 @@ Progress tracking emotes:
 - [X] 7.3: Unit tests in JavaScript
 - [X] 7.4: [Project - JavaScript Unit Tests](https://github.com/tryber/sd-08-project-js-unit-tests/tree/gabrielDonnantuoni-unit-tests-project)
 
-##### Unit 8: JavaScript ES6 Higher Order Functions :hourglass_flowing_sand:
+##### Unit 8: JavaScript ES6 Higher Order Functions :heavy_check_mark:
 
 - [X] 8.1: JavaScript ES6 - Higher Order Functions - forEach, find, some, every, sort
 - [X] 8.2: JavaScript ES6 - Higher Order Functions - map and filter
 - [X] 8.3: JavaScript ES6 - Higher Order Functions - reduce
 - [X] 8.4: JavaScript ES6 - Spread operator, rest parameter, destructuring and more
-- [X] 8.5: [Project - Zoo functions](https://github.com/tryber/sd-08-project-zoo-function/pull/26)
+- [X] 8.5: [Project - Zoo functions](https://github.com/tryber/sd-08-project-zoo-function/tree/gabrielDonnantuoni-zoo-function-project)
 
-##### Unit 9: Asynchronicity & Callbacks :closed_book:
+##### Unit 9: Asynchronicity & Callbacks :heavy_check_mark:
 
 - [X] 9.1: Asynchronous JavaScript and Callbacks
 - [X] 9.2: JavaScript Promises
-- [ ] 9.3: Project - Shopping Cart
+- [X] 9.3: [Project - Shopping Cart](https://github.com/tryber/sd-08-project-shopping-cart/tree/gabrielDonnantuoni-shopping-cart-project)
 
-##### Unit 10: Automated Tests with Jest :closed_book:
+##### Unit 10: Automated Tests with Jest :heavy_check_mark:
 
-- [ ] 10.1: First steps on Jest
-- [ ] 10.2: Jest - Asynchronous tests
-- [ ] 10.3: Jest - Simulating behaviors
-- [ ] 10.4: Project - Asynchronous Jest and Mocking
+- [X] 10.1: First steps on Jest
+- [X] 10.2: Jest - Asynchronous tests
+- [X] 10.3: Jest - Simulating behaviors
+- [X] 10.4: [Project - Asynchronous Jest and Mocking](https://github.com/tryber/sd-08-project-jest/tree/gabrielDonnantuoni-jest-project)
 
-### Front-end Development :closed_book:
+### Front-end Development :hourglass_flowing_sand:
 
-##### Unit 11: Introduction to React :closed_book:
+##### Unit 11: Introduction to React :hourglass_flowing_sand:
 
 - [ ] 11.1: 'Hello, world!' on React!
 - [ ] 11.2: React Components
